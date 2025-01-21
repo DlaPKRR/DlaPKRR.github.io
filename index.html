@@ -5,11 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PKRR - Partia Konserwatywna Ryba Reformacyjna</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
     <nav>
       <div class="logo">
+        <svg width="50" height="50" viewBox="0 0 50 50">
+          <path class="fish" d="M25 10C16 10 9 18 9 25C9 32 16 40 25 40C34 40 41 32 41 25C41 18 34 10 25 10ZM30 20C31.5 20 33 21.5 33 23C33 24.5 31.5 26 30 26C28.5 26 27 24.5 27 23C27 21.5 28.5 20 30 20Z" fill="#1a4b84"/>
+        </svg>
         <span>PKRR</span>
       </div>
       <ul>
@@ -24,22 +29,38 @@
     <section id="hero">
       <h1>Partia Konserwatywna Ryba Reformacyjna</h1>
       <h2>Płyńmy razem w stronę lepszego jutra!</h2>
+      <div class="fish-school"></div>
     </section>
 
     <section id="about">
       <h2>O PKRR</h2>
-      <p>PKRR to partia łącząca konserwatyzm narodowy z potrzebą reform. Naszym celem jest silna, zjednoczona Polska, która szanuje tradycję, ale patrzy w przyszłość z odwagą.</p>
+      <p>PKRR to partia, która łączy tradycyjne wartości z odważnym dążeniem do reform. Naszym celem jest Polska silna, sprawiedliwa i zjednoczona.</p>
     </section>
 
     <section id="values">
       <h2>Nasze wartości</h2>
-      <ul>
-        <li><strong>Centralizacja władzy:</strong> Efektywne zarządzanie krajem dzięki silnym instytucjom.</li>
-        <li><strong>Konserwatyzm narodowy:</strong> Ochrona tradycji i tożsamości narodowej.</li>
-        <li><strong>Reformacyjny patriotyzm:</strong> Działanie na rzecz rozwoju i jedności Polski.</li>
-        <li><strong>Suwerenność narodowa:</strong> Niezależność Polski na arenie międzynarodowej.</li>
-        <li><strong>Ekonomiczny pragmatyzm:</strong> Gospodarka oparta na rozsądnych decyzjach i inwestycjach.</li>
-      </ul>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="icon">⚖️</div>
+          <h3>Sprawiedliwość</h3>
+          <p>Dążymy do równości i uczciwości w społeczeństwie.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon">🌿</div>
+          <h3>Zrównoważony rozwój</h3>
+          <p>Chronimy środowisko naturalne dla przyszłych pokoleń.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon">🛡️</div>
+          <h3>Suwerenność</h3>
+          <p>Dbamy o niezależność Polski w globalnym świecie.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon">🌊</div>
+          <h3>Tradycja</h3>
+          <p>Szanujemy i pielęgnujemy wartości narodowe.</p>
+        </div>
+      </div>
     </section>
 
     <section id="join">
@@ -54,7 +75,8 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 Partia Konserwatywna Ryba Reformacyjna. Wszystkie prawa zastrzeżone.</p>
+    <p>&copy; 2025 Partia Konserwatywna Ryba Reformacyjna.</p>
   </footer>
 </body>
 </html>
+
