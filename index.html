@@ -63,18 +63,52 @@
       </div>
     </section>
 
-<html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <title>Hierarchia Partii Politycznej</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+    }
+    .ocean {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(180deg, #cce7ff, #006994);
+    }
+    .org-chart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .level {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .fish-card {
+      text-align: center;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .fish-card img.profile {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+  </style>
 </head>
 <body>
   <div class="ocean">
     <div class="org-chart">
       <div class="level president">
         <div class="fish-card">
-          <img src="https://images-ext-1.discordapp.net/external/ru8lc3Ia3qo4IIw6KOaKnNNmdeCvZ1RaCCCFfm5Na8c/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/746094432687882360/09607c48a77a0c09a075afeb67f30408.png?format=webp&quality=lossless.jpg" alt="Avatar Prezes" class="profile">
+          <img src="https://images-ext-1.discordapp.net/external/ru8lc3Ia3qo4IIw6KOaKnNNmdeCvZ1RaCCCFfm5Na8c/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/746094432687882360/09607c48a77a0c09a075afeb67f30408.png" alt="Avatar Prezes" class="profile">
           <h3>Prezes Karp</h3>
           <p>Najwyższy Przywódca</p>
         </div>
@@ -111,9 +145,7 @@
         </div>
       </div>
     </div>
-    <div class="bubbles"></div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
 
